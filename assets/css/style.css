@@ -1,0 +1,104 @@
+body {
+    font-family: Roboto, sans-serif ;
+    font-size: 16px;
+    background-color: #efefef;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 60px;
+    background-color: white;
+    padding: 60px 30px;
+    border-radius: 20px;
+}
+
+p {
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #393c6c;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color: #f3735f;
+}
+
+h3 {
+    font-size: 18px bold;
+    line-height: 22px;
+    color: #393c6c;
+}
+
+/* Header */
+
+header {
+    background-color: white;
+    border-bottom: solid 1px #f3735f;
+}
+
+header img {
+    margin: 24px auto;
+    width: 200px;
+    height: 31px;
+}
+
+/* Main */
+
+.baseline {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+.time {
+    background-color: #8A98B1;
+    width: 400px;
+    height: 45px;
+    margin: 9px auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+section img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+section img:not(:last-child) {
+    margin-right: 28px;
+}
+
+.liste {
+    width: 198px;
+    height: 110px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-left: 15px;
+}
+
+section ul {
+    list-style: disc;
+}
