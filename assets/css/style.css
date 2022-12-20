@@ -37,7 +37,8 @@ h2 {
 }
 
 h3 {
-    font-size: 18px bold;
+    font-size: 18px;
+    font-weight: bold;
     line-height: 22px;
     color: #393c6c;
 }
@@ -99,6 +100,15 @@ section img:not(:last-child) {
     margin-left: 15px;
 }
 
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
 section ul {
     list-style: disc;
+}
+
+footer {
+    margin: 60px auto;
+    text-align: center;
 }
